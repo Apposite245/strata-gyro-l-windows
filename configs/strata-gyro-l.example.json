@@ -1,0 +1,28 @@
+{
+  "exe": "C:\\strata-gyro-l\\strata\\build\\strata.exe",
+  "args": [
+    "--pack", "D:\\strata-data\\packs\\gyro-l",
+    "--native", "D:\\strata-data\\models\\gyro-l\\Qwen3.8-Flash-Next-Gyro-L-TQ3_0.gguf",
+    "--ple-gguf", "D:\\strata-data\\models\\gyro-l\\Qwen3.8-Flash-Next-Gyro-L-TQ3_0.gguf",
+    "--expert-profile", "C:\\strata-gyro-l\\strata\\data\\expert-profile.bin",
+    "--expert-cache", "auto",
+    "--prefill", "auto",
+    "--spec", "4",
+    "--spec-min-p", "0.5",
+    "--mtp", "D:\\strata-data\\mtp\\rt",
+    "--max-context", "131072",
+    "--kv", "int8",
+    "--kv-resident", "32768",
+    "--vram-reserve-mib", "2000"
+  ],
+  "sampling": { "temperature": 1, "top_p": 0.95, "top_k": 20 },
+  "cwd": "C:\\strata-gyro-l\\strata",
+  "tokenizer": "D:\\strata-data\\packs\\gyro-l\\tokenizer",
+  "model_name": "gyro-l",
+  "log": "C:\\strata-gyro-l\\strata-gyro-l.log",
+  "lib_dirs": [],
+  "port": 8098,
+  "gpu": 0,
+  "gpus_asked": true,
+  "fit_max_tokens": true
+}

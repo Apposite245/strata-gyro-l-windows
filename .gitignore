@@ -1,0 +1,8 @@
+# the cloned sources and local configs
+strata/
+agention-llama.cpp/
+configs/*.json
+!configs/*.example.json
+configs/*.bat
+!configs/*.example.bat
+*.log
